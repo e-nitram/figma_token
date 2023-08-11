@@ -1,0 +1,22 @@
+# Built files
+/dist/
+changes.md
+
+# Yarn stuff; we're not using PnP/Zero installs
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Really don't want that
+/node_modules/
+
+# Local env variables should stay local
+.env
+
+# Folder metadata
+.DS_Store
+Thumbs.db
